@@ -1,0 +1,22 @@
+{
+  "name": "play",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "allureGenerate": "allure generate --clean",
+    "allureOpen": "allure open",
+    "debug": "npx playwright test --ui",
+    "test": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@playwright/test": "^1.48.2",
+    "@types/node": "^22.5.0",
+    "allure-playwright": "^3.0.3"
+  }
+  
+}
