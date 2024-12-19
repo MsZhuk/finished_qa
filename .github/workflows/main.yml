@@ -64,7 +64,6 @@ jobs:
         with:
          to: ${{ secrets.TELEGRAM_CHAT_ID }}
          token: ${{ secrets.TELEGRAM_TOKEN }}
-         Repository: ${{ https://github.com/MsZhuk/finished_qa }} 
          message: |
             🚀 Success!
       - name:  telegram Notification2
@@ -73,6 +72,5 @@ jobs:
         with:
          to: ${{ secrets.TELEGRAM_CHAT_ID }}
          token: ${{ secrets.TELEGRAM_TOKEN }}
-         Repository: ${{ https://github.com/MsZhuk/finished_qa }} 
          message: |
             ❌ Faild!
