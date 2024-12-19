@@ -2,7 +2,7 @@ import { faker } from "@faker-js/faker";
 import { test, expect } from "@playwright/test";
 import { SecretToken } from "../src/helperForApi/helper.js";
 
-test.describe.only("API challenge", () => {
+test.describe("API challenge", () => {
   let URL = "https://apichallenges.herokuapp.com/";
   let token;
   let id;
