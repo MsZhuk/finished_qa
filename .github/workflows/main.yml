@@ -74,5 +74,7 @@ jobs:
          to: ${{ secrets.TELEGRAM_CHAT_ID }}
          token: ${{ secrets.TELEGRAM_TOKEN }}
          message: |
+            ❌ Faild!
+            Repository: ${{ https://github.com/MsZhuk/finished_qa }}   
             ❌Faild!
             Repository: ${{ https://github.com/MsZhuk/finished_qa }}
