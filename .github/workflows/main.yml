@@ -64,17 +64,15 @@ jobs:
         with:
          to: ${{ secrets.TELEGRAM_CHAT_ID }}
          token: ${{ secrets.TELEGRAM_TOKEN }}
+         Repository: ${{ https://github.com/MsZhuk/finished_qa }} 
          message: |
             🚀 Success!
-            Repository: ${{ https://github.com/MsZhuk/finished_qa }}   
       - name:  telegram Notification2
         if: failure()
         uses: cbrgm/telegram-github-action@v1
         with:
          to: ${{ secrets.TELEGRAM_CHAT_ID }}
          token: ${{ secrets.TELEGRAM_TOKEN }}
+         Repository: ${{ https://github.com/MsZhuk/finished_qa }} 
          message: |
             ❌ Faild!
-            Repository: ${{ https://github.com/MsZhuk/finished_qa }}   
-            ❌Faild!
-            Repository: ${{ https://github.com/MsZhuk/finished_qa }}
