@@ -73,4 +73,4 @@ jobs:
          to: ${{ secrets.TELEGRAM_CHAT_ID }}
          token: ${{ secrets.TELEGRAM_TOKEN }}
          message: |
-            ❌ Faild!
+            🚀 Faild!
